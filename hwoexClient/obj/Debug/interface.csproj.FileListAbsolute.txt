@@ -1,0 +1,15 @@
+C:\IT academy\ExpanseManager\hwoexClient\bin\Debug\hwoexClient.exe.config
+C:\IT academy\ExpanseManager\hwoexClient\bin\Debug\hwoexClient.exe
+C:\IT academy\ExpanseManager\hwoexClient\bin\Debug\hwoexClient.pdb
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\interface.csprojAssemblyReference.cache
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.LoginUC.resources
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.StartForm.resources
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.Properties.Resources.resources
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\interface.csproj.GenerateResource.cache
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.exe
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.pdb
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.TransactionsUC.resources
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.AccountsUC.resources
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.OverviewUC.resources
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.FormAdd.resources
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.FormEdit.resources

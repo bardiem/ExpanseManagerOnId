@@ -1,0 +1,156 @@
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\bin\Debug\hwoexClient.exe.config
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\bin\Debug\hwoexClient.exe
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\bin\Debug\hwoexClient.pdb
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.AddUser.resources
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.StartForm.resources
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.Properties.Resources.resources
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.csproj.GenerateResource.cache
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.csproj.CoreCompileInputs.cache
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.exe
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.pdb
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.CompaniesChanging.resources
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.CompaniesReview.resources
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.EducationChanging.resources
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.EducationReview.resources
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.WorkerChanging.resources
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.WorkerReview.resources
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.FAQ.resources
+E:\кеп\4.2 курс\hwoex\hwoexDesktop\hwoexClient\obj\Debug\hwoexClient.csprojAssemblyReference.cache
+E:\hwoexClient\bin\Debug\hwoexClient.exe.config
+E:\hwoexClient\bin\Debug\hwoexClient.exe
+E:\hwoexClient\bin\Debug\hwoexClient.pdb
+E:\hwoexClient\obj\Debug\hwoexClient.csprojAssemblyReference.cache
+E:\hwoexClient\obj\Debug\hwoexClient.AddUser.resources
+E:\hwoexClient\obj\Debug\hwoexClient.CompaniesChanging.resources
+E:\hwoexClient\obj\Debug\hwoexClient.CompaniesReview.resources
+E:\hwoexClient\obj\Debug\hwoexClient.EducationChanging.resources
+E:\hwoexClient\obj\Debug\hwoexClient.EducationReview.resources
+E:\hwoexClient\obj\Debug\hwoexClient.FAQ.resources
+E:\hwoexClient\obj\Debug\hwoexClient.StartForm.resources
+E:\hwoexClient\obj\Debug\hwoexClient.Properties.Resources.resources
+E:\hwoexClient\obj\Debug\hwoexClient.WorkerChanging.resources
+E:\hwoexClient\obj\Debug\hwoexClient.WorkerReview.resources
+E:\hwoexClient\obj\Debug\hwoexClient.csproj.GenerateResource.cache
+E:\hwoexClient\obj\Debug\hwoexClient.csproj.CoreCompileInputs.cache
+E:\hwoexClient\obj\Debug\hwoexClient.exe
+E:\hwoexClient\obj\Debug\hwoexClient.pdb
+E:\hwoexDesktopNew\hwoexClient\bin\Debug\hwoexClient.exe
+E:\hwoexDesktopNew\hwoexClient\bin\Debug\hwoexClient.pdb
+E:\hwoexDesktopNew\hwoexClient\bin\Debug\WCFDatatableSenderInterface.dll
+E:\hwoexDesktopNew\hwoexClient\bin\Debug\WCFDatatableSenderInterface.pdb
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.csprojAssemblyReference.cache
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.AddUser.resources
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.CompaniesChanging.resources
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.CompaniesReview.resources
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.EducationChanging.resources
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.EducationReview.resources
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.FAQ.resources
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.StartForm.resources
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.Properties.Resources.resources
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.WorkerChanging.resources
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.WorkerReview.resources
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.csproj.GenerateResource.cache
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.csproj.CoreCompileInputs.cache
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.csproj.CopyComplete
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.exe
+E:\hwoexDesktopNew\hwoexClient\obj\Debug\hwoexClient.pdb
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\bin\Debug\hwoexClient.exe
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\bin\Debug\hwoexClient.pdb
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.csprojAssemblyReference.cache
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.AddUser.resources
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.CompaniesChanging.resources
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.CompaniesReview.resources
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.EducationChanging.resources
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.EducationReview.resources
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.FAQ.resources
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.StartForm.resources
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.Properties.Resources.resources
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.WorkerChanging.resources
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.WorkerReview.resources
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.csproj.GenerateResource.cache
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.csproj.CoreCompileInputs.cache
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.exe
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\obj\Debug\hwoexClient.pdb
+C:\Users\bardi\Desktop\hwoexServer\hwoexClient\bin\Debug\hwoexClient.exe.config
+C:\Users\bardi\Desktop\Server\hwoexClient\bin\Debug\hwoexClient.exe.config
+C:\Users\bardi\Desktop\Server\hwoexClient\bin\Debug\hwoexClient.exe
+C:\Users\bardi\Desktop\Server\hwoexClient\bin\Debug\hwoexClient.pdb
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.csprojAssemblyReference.cache
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.AddUser.resources
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.CompaniesChanging.resources
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.CompaniesReview.resources
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.EducationChanging.resources
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.EducationReview.resources
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.FAQ.resources
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.StartForm.resources
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.Properties.Resources.resources
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.WorkerChanging.resources
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.WorkerReview.resources
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.csproj.GenerateResource.cache
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.csproj.CoreCompileInputs.cache
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.exe
+C:\Users\bardi\Desktop\Server\hwoexClient\obj\Debug\hwoexClient.pdb
+C:\Users\bardi\Desktop\hwoex\hwoexClient\bin\Debug\hwoexClient.exe.config
+C:\Users\bardi\Desktop\hwoex\hwoexClient\bin\Debug\hwoexClient.exe
+C:\Users\bardi\Desktop\hwoex\hwoexClient\bin\Debug\hwoexClient.pdb
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.csprojAssemblyReference.cache
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.AddUser.resources
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.CompaniesChanging.resources
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.CompaniesReview.resources
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.EducationChanging.resources
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.EducationReview.resources
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.FAQ.resources
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.StartForm.resources
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.Properties.Resources.resources
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.WorkerChanging.resources
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.WorkerReview.resources
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.csproj.GenerateResource.cache
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.csproj.CoreCompileInputs.cache
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.exe
+C:\Users\bardi\Desktop\hwoex\hwoexClient\obj\Debug\hwoexClient.pdb
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\bin\Debug\hwoexClient.exe.config
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\bin\Debug\hwoexClient.exe
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\bin\Debug\hwoexClient.pdb
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.AddUser.resources
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.CompaniesChanging.resources
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.CompaniesReview.resources
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.EducationChanging.resources
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.EducationReview.resources
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.FAQ.resources
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.StartForm.resources
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.Properties.Resources.resources
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.WorkerChanging.resources
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.WorkerReview.resources
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.csproj.GenerateResource.cache
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.csproj.CoreCompileInputs.cache
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.exe
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.pdb
+C:\Users\bardi\Desktop\hwoex — копия\hwoexClient\obj\Debug\hwoexClient.csprojAssemblyReference.cache
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\bin\Debug\hwoexClient.exe.config
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\bin\Debug\hwoexClient.exe
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\bin\Debug\hwoexClient.pdb
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.AddUser.resources
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.CompaniesChanging.resources
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.CompaniesReview.resources
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.EducationChanging.resources
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.EducationReview.resources
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.FAQ.resources
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.StartForm.resources
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.Properties.Resources.resources
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.WorkerChanging.resources
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.WorkerReview.resources
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.csproj.GenerateResource.cache
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.csproj.CoreCompileInputs.cache
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.exe
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.pdb
+E:\кеп\4.2 курс\GraduationProject\hwoexClient\obj\Debug\hwoexClient.csprojAssemblyReference.cache
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.csprojAssemblyReference.cache
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.StartForm.resources
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.Properties.Resources.resources
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.csproj.GenerateResource.cache
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.exe
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.pdb
+C:\IT academy\ExpanseManager\hwoexClient\bin\Debug\hwoexClient.exe.config
+C:\IT academy\ExpanseManager\hwoexClient\bin\Debug\hwoexClient.exe
+C:\IT academy\ExpanseManager\hwoexClient\bin\Debug\hwoexClient.pdb
+C:\IT academy\ExpanseManager\hwoexClient\obj\Debug\hwoexClient.LoginUC.resources
