@@ -62,5 +62,14 @@ namespace hwoexClient
             TxtSigninPassword.Clear();
         }
 
+
+        public bool IsSignupTextboxesEmpty()
+        {
+            if (TxtSignupEmail.Text.Length < 1 || TxtSignupName.Text.Length < 1 || TxtSignupLogin.Text.Length < 1 || TxtSignupPassword.Text.Length < 1)
+            {
+                return true;
+            }
+            else return false;
+        }
     }
 }
