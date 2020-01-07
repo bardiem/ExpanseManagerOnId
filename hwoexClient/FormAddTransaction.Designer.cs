@@ -2,7 +2,7 @@
 
 namespace hwoexClient
 {
-    partial class FormAdd
+    partial class FormAddTransaction
     {
         /// <summary>
         /// Required designer variable.

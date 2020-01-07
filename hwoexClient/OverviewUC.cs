@@ -16,5 +16,10 @@ namespace hwoexClient
         {
             InitializeComponent();
         }
+
+        private void OverviewUC_Load(object sender, EventArgs e)
+        {
+            cbDate.SelectedIndex = 0;
+        }
     }
 }

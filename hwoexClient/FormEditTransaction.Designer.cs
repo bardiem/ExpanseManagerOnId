@@ -168,7 +168,7 @@ namespace hwoexClient
         #endregion
 
         private System.Windows.Forms.Button btnDetailsEdit;
-        private System.Windows.Forms.RichTextBox rtbDescription;
+        
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -178,12 +178,12 @@ namespace hwoexClient
         private TextBox textBox1;
         private TextBox textBox2;
         private ComboBox comboBox1;
+        private System.Windows.Forms.RichTextBox rtbDescription;
 
-        public Button BtnDetailsEdit { get => btnDetailsEdit; set => btnDetailsEdit = value; }
+        public DateTimePicker DateTimePicker1 { get => dateTimePicker1; set => dateTimePicker1 = value; }
+        public TextBox TextBox1 { get => textBox1; set => textBox1 = value; }
+        public TextBox TextBox2 { get => textBox2; set => textBox2 = value; }
+        public ComboBox ComboBox1 { get => comboBox1; set => comboBox1 = value; }
         public RichTextBox RtbDescription { get => rtbDescription; set => rtbDescription = value; }
-        public DateTimePicker DtpDate { get => dtpDate; set => dtpDate = value; }
-        public TextBox TxtAmount { get => txtAmount; set => txtAmount = value; }
-        public TextBox TxtName { get => txtName; set => txtName = value; }
-        public ComboBox CbCategory { get => cbCategory; set => cbCategory = value; }
     }
 }

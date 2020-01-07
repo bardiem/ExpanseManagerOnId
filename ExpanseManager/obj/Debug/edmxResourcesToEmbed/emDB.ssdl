@@ -62,7 +62,6 @@
     </Key>
     <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="name" Type="varchar" MaxLength="200" Nullable="false" />
-    <Property Name="nickname" Type="varchar" MaxLength="30" />
     <Property Name="login" Type="varchar" MaxLength="30" Nullable="false" />
     <Property Name="password" Type="varchar" MaxLength="30" Nullable="false" />
     <Property Name="email" Type="varchar" MaxLength="100" Nullable="false" />

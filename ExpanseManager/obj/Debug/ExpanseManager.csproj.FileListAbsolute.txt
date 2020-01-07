@@ -1,4 +1,3 @@
-C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.csprojAssemblyReference.cache
 C:\IT academy\ExpanseManager\ExpanseManager\bin\Debug\ExpanseManager.dll.config
 C:\IT academy\ExpanseManager\ExpanseManager\bin\Debug\ExpanseManager.dll
 C:\IT academy\ExpanseManager\ExpanseManager\bin\Debug\ExpanseManager.pdb
@@ -9,3 +8,15 @@ C:\IT academy\ExpanseManager\ExpanseManager\bin\Debug\EntityFramework.SqlServer.
 C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.csproj.CopyComplete
 C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.dll
 C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.pdb
+C:\IT academy\ExpanseManagerOld\ExpanseManager\bin\Debug\ExpanseManager.dll.config
+C:\IT academy\ExpanseManagerOld\ExpanseManager\bin\Debug\ExpanseManager.dll
+C:\IT academy\ExpanseManagerOld\ExpanseManager\bin\Debug\ExpanseManager.pdb
+C:\IT academy\ExpanseManagerOld\ExpanseManager\bin\Debug\EntityFramework.dll
+C:\IT academy\ExpanseManagerOld\ExpanseManager\bin\Debug\EntityFramework.SqlServer.dll
+C:\IT academy\ExpanseManagerOld\ExpanseManager\bin\Debug\EntityFramework.xml
+C:\IT academy\ExpanseManagerOld\ExpanseManager\bin\Debug\EntityFramework.SqlServer.xml
+C:\IT academy\ExpanseManagerOld\ExpanseManager\obj\Debug\ExpanseManager.csprojAssemblyReference.cache
+C:\IT academy\ExpanseManagerOld\ExpanseManager\obj\Debug\ExpanseManager.csproj.CopyComplete
+C:\IT academy\ExpanseManagerOld\ExpanseManager\obj\Debug\ExpanseManager.dll
+C:\IT academy\ExpanseManagerOld\ExpanseManager\obj\Debug\ExpanseManager.pdb
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.csprojAssemblyReference.cache

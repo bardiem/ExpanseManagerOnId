@@ -10,6 +10,7 @@ using System.Text;
 using System.Data.SqlClient;
 using System.Collections;
 
+
 namespace hwoexClient
 {
     public partial class StartForm : Form
@@ -33,7 +34,11 @@ namespace hwoexClient
 
         private void Login()
         {
-           
+            string login = loginUC1.TxtSigninLogin.Text;
+            string password = loginUC1.TxtSigninPassword.Text;
+
+            //var user = ;
+            User.FindUser(login, password);
             /*string clientPassword = textBox1.Text;
             if (clientPassword == servPassword)
             {
@@ -64,6 +69,44 @@ namespace hwoexClient
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+
+        private void Signup()
+        {
+            if (loginUC1.TxtSignupPassword.Text == loginUC1.TxtSignupSecondPass.Text) {
+                try
+                {
+                    Userr user = new Userr();
+                    user.login = loginUC1.TxtSignupLogin.Text;
+                    user.name = loginUC1.TxtSignupName.Text;
+                    user.password = loginUC1.TxtSignupPassword.Text;
+                    user.email = loginUC1.TxtSignupEmail.Text;
+                    User.AddUser(user);
+
+                    loginUC1.ClearSignupTextboxes();
+                    MessageBox.Show(
+                     "Реєстрація пройшла успішно",
+                     "Повідомлення",
+                     MessageBoxButtons.OK,
+                     MessageBoxIcon.Information);
+                }
+                catch (Exception)
+                {
+                MessageBox.Show(
+                 "Ви ввели невірні дані, повторіть спробу",
+                 "Повідомлення",
+                 MessageBoxButtons.OK,
+                 MessageBoxIcon.Information);
+                }
+
+        } else MessageBox.Show(
+                     "Введіть однакові паролі в полях",
+                     "Повідомлення",
+                     MessageBoxButtons.OK,
+                     MessageBoxIcon.Information);
+
+           
         }
 
 
@@ -99,6 +142,8 @@ namespace hwoexClient
 
         private void loginUC1_btnLoginClick(object sender, EventArgs e)
         {
+            Login();
+            loginUC1.ClearSigninTextboxes();
             HidePanels();
             transactionsUC1.Show();
         }
@@ -108,5 +153,12 @@ namespace hwoexClient
             HidePanels();
             loginUC1.Show();
         }
+
+        private void loginUC1_btnRegisterClick(object sender, EventArgs e)
+        {
+            Signup();
+        }
+
+        
     }
 }

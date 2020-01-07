@@ -16,5 +16,16 @@ namespace hwoexClient
         {
             InitializeComponent();
         }
+
+        private void btnAddTransaction_Click(object sender, EventArgs e)
+        {
+            if (this.btnAddTransactionClick != null)
+            {
+                this.btnAddTransactionClick(this, e);
+            }
+        }
+
+
+        public event EventHandler btnAddTransactionClick;
     }
 }

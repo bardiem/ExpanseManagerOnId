@@ -68,7 +68,6 @@
         <MappingFragment StoreEntitySet="Userr">
           <ScalarProperty Name="user_id" ColumnName="user_id" />
           <ScalarProperty Name="name" ColumnName="name" />
-          <ScalarProperty Name="nickname" ColumnName="nickname" />
           <ScalarProperty Name="login" ColumnName="login" />
           <ScalarProperty Name="password" ColumnName="password" />
           <ScalarProperty Name="email" ColumnName="email" />

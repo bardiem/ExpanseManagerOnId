@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace hwoexClient
 {
-    public partial class FormAdd : Form
+    public partial class FormAddTransaction : Form
     {
-        public FormAdd()
+        public FormAddTransaction()
         {
             InitializeComponent();
         }

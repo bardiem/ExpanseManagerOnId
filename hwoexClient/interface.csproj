@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>hwoexClient</RootNamespace>
     <AssemblyName>hwoexClient</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,9 +34,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
@@ -49,29 +58,64 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
     <Compile Include="AccountsUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="AccountsUC.Designer.cs">
       <DependentUpon>AccountsUC.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAdd.cs">
+    <Compile Include="Acounts.cs" />
+    <Compile Include="Categories.cs" />
+    <Compile Include="Category.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Currency.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAdd.Designer.cs">
-      <DependentUpon>FormAdd.cs</DependentUpon>
+    <Compile Include="FormAddCategory.Designer.cs">
+      <DependentUpon>FormAddCategory.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormEdit.cs">
+    <Compile Include="FormAddTransaction.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormEdit.Designer.cs">
-      <DependentUpon>FormEdit.cs</DependentUpon>
+    <Compile Include="FormAddTransaction.Designer.cs">
+      <DependentUpon>FormAddTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditTransaction.Designer.cs">
+      <DependentUpon>FormEditTransaction.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="LoginUC.Designer.cs">
       <DependentUpon>LoginUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="moneyTransaction.cs">
+      <DependentUpon>Model.tt</DependentUpon>
     </Compile>
     <Compile Include="OverviewUC.cs">
       <SubType>UserControl</SubType>
@@ -87,20 +131,31 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transaction.cs" />
+    <Compile Include="Transactions.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
     <Compile Include="TransactionsUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="TransactionsUC.Designer.cs">
       <DependentUpon>TransactionsUC.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="Userr.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AccountsUC.resx">
       <DependentUpon>AccountsUC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAdd.resx">
-      <DependentUpon>FormAdd.cs</DependentUpon>
+    <EmbeddedResource Include="FormAddCategory.resx">
+      <DependentUpon>FormAddCategory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormEdit.resx">
-      <DependentUpon>FormEdit.cs</DependentUpon>
+    <EmbeddedResource Include="FormAddTransaction.resx">
+      <DependentUpon>FormAddTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditTransaction.resx">
+      <DependentUpon>FormEditTransaction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginUC.resx">
       <DependentUpon>LoginUC.cs</DependentUpon>
@@ -119,11 +174,20 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="TransactionsUC.resx">
       <DependentUpon>TransactionsUC.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
+    <EntityDeploy Include="Model.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model.edmx.diagram">
+      <DependentUpon>Model.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -133,6 +197,21 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model.Context.cs</LastGenOutput>
+      <DependentUpon>Model.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model.edmx</DependentUpon>
+      <LastGenOutput>Model.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

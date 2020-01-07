@@ -1,4 +1,6 @@
-﻿namespace hwoexClient
+﻿using System.Windows.Forms;
+
+namespace hwoexClient
 {
     partial class FormAddCategory
     {
@@ -100,6 +102,7 @@
             this.btnAddTransaction.TabIndex = 14;
             this.btnAddTransaction.Text = "Add";
             this.btnAddTransaction.UseVisualStyleBackColor = false;
+            this.btnAddTransaction.Click += new System.EventHandler(this.btnAddTransaction_Click);
             // 
             // FormAddCategory
             // 
@@ -130,5 +133,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbCategory;
         private System.Windows.Forms.Button btnAddTransaction;
+
+        public RichTextBox RtbDescription { get => rtbDescription; set => rtbDescription = value; }
+      
+        public TextBox TxtName { get => txtName; set => txtName = value; }
+
+        public ComboBox CbCategory { get => cbCategory; set => cbCategory = value; }
     }
 }

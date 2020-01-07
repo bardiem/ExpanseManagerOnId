@@ -47,6 +47,20 @@ namespace hwoexClient
             }
         }
 
-        
+        public void ClearSignupTextboxes()
+        {
+            TxtSignupEmail.Clear();
+            TxtSignupLogin.Clear();
+            TxtSignupName.Clear();
+            TxtSignupSecondPass.Clear();
+            TxtSignupPassword.Clear();
+        }
+
+        public void ClearSigninTextboxes()
+        {
+            TxtSigninLogin.Clear();
+            TxtSigninPassword.Clear();
+        }
+
     }
 }

@@ -53,12 +53,9 @@
     <Compile Include="Account.cs">
       <DependentUpon>emDB.tt</DependentUpon>
     </Compile>
-    <Compile Include="Accounts.cs" />
-    <Compile Include="Categories.cs" />
     <Compile Include="Category.cs">
       <DependentUpon>emDB.tt</DependentUpon>
     </Compile>
-    <Compile Include="Transaction.cs" />
     <Compile Include="Currency.cs">
       <DependentUpon>emDB.tt</DependentUpon>
     </Compile>
@@ -87,7 +84,6 @@
     <Compile Include="Transactions.cs">
       <DependentUpon>emDB.tt</DependentUpon>
     </Compile>
-    <Compile Include="User.cs" />
     <Compile Include="Userr.cs">
       <DependentUpon>emDB.tt</DependentUpon>
     </Compile>

@@ -38,7 +38,7 @@ namespace hwoexClient
                 this.btnAddTransactionClick(this, e);
             }
 
-            FormAdd form = new FormAdd();
+            FormAddTransaction form = new FormAddTransaction();
             form.Show();
 
         }
@@ -50,7 +50,7 @@ namespace hwoexClient
                 this.btnDetailsEditClick(this, e);
             }
             
-            FormEdit form = new FormEdit();
+            FormEditTransaction form = new FormEditTransaction();
             form.Show();
         }
 
