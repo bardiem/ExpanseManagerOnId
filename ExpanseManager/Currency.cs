@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ExpanseManager
+namespace hwoexClient
 {
     using System;
     using System.Collections.Generic;
