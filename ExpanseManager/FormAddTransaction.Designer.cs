@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace hwoexClient
+namespace ExpanseManager
 {
     partial class FormAddTransaction
     {
@@ -37,10 +37,10 @@ namespace hwoexClient
             this.label2 = new System.Windows.Forms.Label();
             this.txtAmount = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dtpDate = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.rtbDescription = new System.Windows.Forms.RichTextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.dtpDate = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // btnAddTransaction
@@ -61,6 +61,9 @@ namespace hwoexClient
             // cbCategory
             // 
             this.cbCategory.FormattingEnabled = true;
+            this.cbCategory.Items.AddRange(new object[] {
+            "3",
+            "4"});
             this.cbCategory.Location = new System.Drawing.Point(328, 144);
             this.cbCategory.Name = "cbCategory";
             this.cbCategory.Size = new System.Drawing.Size(187, 24);
@@ -107,22 +110,6 @@ namespace hwoexClient
             this.label3.TabIndex = 9;
             this.label3.Text = "Категорія:";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 208);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 17);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Дата:";
-            // 
-            // dtpDate
-            // 
-            this.dtpDate.Location = new System.Drawing.Point(328, 203);
-            this.dtpDate.Name = "dtpDate";
-            this.dtpDate.Size = new System.Drawing.Size(187, 22);
-            this.dtpDate.TabIndex = 11;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -140,7 +127,23 @@ namespace hwoexClient
             this.rtbDescription.TabIndex = 13;
             this.rtbDescription.Text = "";
             // 
-            // FormAdd
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 208);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(46, 17);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Дата:";
+            // 
+            // dtpDate
+            // 
+            this.dtpDate.Location = new System.Drawing.Point(328, 203);
+            this.dtpDate.Name = "dtpDate";
+            this.dtpDate.Size = new System.Drawing.Size(187, 22);
+            this.dtpDate.TabIndex = 11;
+            // 
+            // FormAddTransaction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -156,7 +159,7 @@ namespace hwoexClient
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbCategory);
             this.Controls.Add(this.btnAddTransaction);
-            this.Name = "FormAdd";
+            this.Name = "FormAddTransaction";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Додавання транзакції";
@@ -174,12 +177,10 @@ namespace hwoexClient
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtAmount;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dtpDate;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RichTextBox rtbDescription;
-
-
+        private Label label4;
+        private DateTimePicker dtpDate;
 
         public RichTextBox RtbDescription { get => rtbDescription; set => rtbDescription = value; }
         public DateTimePicker DtpDate { get => dtpDate; set => dtpDate = value; }

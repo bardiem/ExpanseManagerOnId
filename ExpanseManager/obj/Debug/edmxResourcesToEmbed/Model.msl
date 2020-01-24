@@ -63,5 +63,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SetBalance" FunctionName="ExpanseManagerModel.Store.SetBalance" />
+    <FunctionImportMapping FunctionImportName="GetBalance" FunctionName="ExpanseManagerModel.Store.GetBalance" />
   </EntityContainerMapping>
 </Mapping>

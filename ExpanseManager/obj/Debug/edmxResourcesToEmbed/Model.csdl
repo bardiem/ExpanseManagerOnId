@@ -153,5 +153,12 @@
       <End Role="moneyTransaction" EntitySet="moneyTransaction" />
       <End Role="Transactions" EntitySet="Transactions" />
     </AssociationSet>
+    <FunctionImport Name="SetBalance">
+      <Parameter Name="acc_id" Mode="In" Type="Int32" />
+      <Parameter Name="newBalance" Mode="In" Type="Single" />
+    </FunctionImport>
+    <FunctionImport Name="GetBalance" ReturnType="Collection(Double)">
+      <Parameter Name="acc_id" Mode="In" Type="Int32" />
+    </FunctionImport>
   </EntityContainer>
 </Schema>

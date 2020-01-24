@@ -4,95 +4,89 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hwoexClient
+namespace ExpanseManager
 {
-    public abstract class Categories
+    
+
+    public class Categori
     {
-        string name;
-        string description;
-        double balance = 0;
 
-        public string Name { get => name; set => name = value; }
-        public string Description { get => description; set => description = value; }
-        public double Balance { get => balance; set => balance = value; }
-    }
+        int id;
 
-    public class ProfitCategory : Categories
-    {
-        private List<Transaction> profits = new List<Transaction>();
 
-        public List<Transaction> Profits { get => profits; set => profits = value; }
+        public int Id { get => id; set => id = value; }
+        public List<Transaction> Transactions { get => transactions; set => transactions = value; }
 
-        public ProfitCategory(string name, string description)
+        List<Transaction> transactions;
+   
+
+        public Categori()
         {
-            Name = name;
-            Description = description;
+            LoadTransactions();
+            Transactions = new List<Transaction>();
         }
 
-        public ProfitCategory(string name, string description, Transaction[] profits)
+        public Categori(int cat_id)
         {
-            Profits.AddRange(profits);
-            Name = name;
-            Description = description;
+            LoadTransactions();
+            Transactions = new List<Transaction>();
+            this.id = cat_id;
         }
 
-        public void AddProfit(string proftitName, double profitSumm, string profitDescription)
+
+        private void LoadTransactions()
         {
-            Transaction profit = new Transaction(proftitName, profitDescription, profitSumm);
-            Profits.Add(profit);
-            Balance += profitSumm;
-        }
 
-        public void PrintInfo()
-        {
-            int i = 0;
-            Console.WriteLine("\tПрибутки за категорiєю {0}, {1}", Name, Description);
-            if (Profits != null)
-                foreach (Transaction item in Profits)
-                {
-                    Console.WriteLine("Прибуток №{0} - {1} на суму {2}, {3}", ++i, item.Name, item.Summ, item.Description);
-                }
-        }
+            foreach (moneyTransaction item in GetTransactionsByType("Прибуток"))
+            {
+                Transactions.Add(new Transaction(item.tran_id));
+            }
 
-    }
-
-    public class ExpanceCategory : Categories
-    {
-        private List<Transaction> expances = new List<Transaction>();
-
-        public List<Transaction> Expances { get => expances; set => expances = value; }
-
-        public ExpanceCategory(string name, string description)
-        {
-            Name = name;
-            Description = description;
-        }
-
-        public ExpanceCategory(string name, string description, Transaction[] expances)
-        {
-            Expances.AddRange(expances);
-            Name = name;
-            Description = description;
+            foreach (moneyTransaction item in GetTransactionsByType("Витрата"))
+            {
+                Transactions.Add(new Transaction(item.tran_id));
+            }
         }
 
 
 
-        public void AddExpance(string expanceName, double expanceSumm, string expanceDescription)
+        public void AddTransaction(moneyTransaction transaction)
         {
-            Transaction expance = new Transaction(expanceName, expanceDescription, expanceSumm);
-            expances.Add(expance);
-            Balance -= expanceSumm;
+
+            Expanses db = new Expanses();
+            Transactions.Add(new Transaction(transaction.tran_id));
+            db.moneyTransaction.Add(transaction);
+            db.SaveChanges();
+
         }
 
-        public void PrintInfo()
+
+        public List<moneyTransaction> GetTransactionsByType(string type)
         {
-            int i = 0;
-            Console.WriteLine("\tВитрати за категорiєю {0}, {1}", Name, Description);
-            if (Expances != null)
-                foreach (Transaction item in Expances)
-                {
-                    Console.WriteLine("Витрата №{0} - {1} на суму {2}, {3}", ++i, item.Name, item.Summ, item.Description);
-                }
+            Expanses db = new Expanses();
+            List<moneyTransaction> ts = new List<moneyTransaction>();
+
+            var query = db.Transactions.Where(t => t.Category.type == type && t.cat_id == Id).ToList();
+
+            return ts;
         }
+
+        public double GetBalance()
+        {
+            Expanses db = new Expanses();
+            double summ = 0;
+            int quantity = 0;
+
+            var query = db.Transactions.Where(t => t.Category.cat_id == Id).ToList();
+
+            foreach (Transactions item in query)
+            {
+                summ += item.moneyTransaction.amount;
+                quantity++;
+            }
+
+            return summ / quantity;
+        }
+
     }
 }

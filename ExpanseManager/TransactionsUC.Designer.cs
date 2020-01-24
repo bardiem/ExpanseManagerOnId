@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace hwoexClient
+namespace ExpanseManager
 {
     partial class TransactionsUC
     {
@@ -102,7 +102,7 @@ namespace hwoexClient
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(534, 145);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(50, 2);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(70, 2);
             this.flowLayoutPanel1.TabIndex = 9;
             // 
             // lblOutflow

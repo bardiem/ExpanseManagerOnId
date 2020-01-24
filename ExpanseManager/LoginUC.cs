@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace hwoexClient
+namespace ExpanseManager
 {
     public partial class LoginUC : UserControl
     {

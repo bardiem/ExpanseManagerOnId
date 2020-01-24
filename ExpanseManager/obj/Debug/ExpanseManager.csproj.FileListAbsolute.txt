@@ -1,0 +1,63 @@
+C:\IT academy\ExpanseManager\ExpanseManager\bin\Debug\hwoexClient.exe.config
+C:\IT academy\ExpanseManager\ExpanseManager\bin\Debug\hwoexClient.exe
+C:\IT academy\ExpanseManager\ExpanseManager\bin\Debug\hwoexClient.pdb
+C:\IT academy\ExpanseManager\ExpanseManager\bin\Debug\EntityFramework.dll
+C:\IT academy\ExpanseManager\ExpanseManager\bin\Debug\EntityFramework.SqlServer.dll
+C:\IT academy\ExpanseManager\ExpanseManager\bin\Debug\EntityFramework.xml
+C:\IT academy\ExpanseManager\ExpanseManager\bin\Debug\EntityFramework.SqlServer.xml
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.AccountsUC.resources
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.FormAddCategory.resources
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.FormAddTransaction.resources
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.FormEditTransaction.resources
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.LoginUC.resources
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.OverviewUC.resources
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.StartForm.resources
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\hwoexClient.Properties.Resources.resources
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.TransactionsUC.resources
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.csproj.GenerateResource.cache
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.csproj.CopyComplete
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\hwoexClient.exe
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\hwoexClient.pdb
+C:\IT academy\ExpanseManager\ExpanseManager\obj\Debug\ExpanseManager.csprojAssemblyReference.cache
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\ExpanseManager.csprojAssemblyReference.cache
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\ExpanseManager.AccountsUC.resources
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\ExpanseManager.FormAddCategory.resources
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\ExpanseManager.FormAddTransaction.resources
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\ExpanseManager.FormEditTransaction.resources
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\ExpanseManager.LoginUC.resources
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\ExpanseManager.OverviewUC.resources
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\ExpanseManager.StartForm.resources
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\hwoexClient.Properties.Resources.resources
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\ExpanseManager.TransactionsUC.resources
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\ExpanseManager.csproj.GenerateResource.cache
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\hwoexClient.exe
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\hwoexClient.pdb
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\bin\Debug\hwoexClient.exe.config
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\bin\Debug\hwoexClient.exe
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\bin\Debug\hwoexClient.pdb
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\bin\Debug\EntityFramework.dll
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\bin\Debug\EntityFramework.SqlServer.dll
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\bin\Debug\EntityFramework.xml
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\bin\Debug\EntityFramework.SqlServer.xml
+C:\IT academy\ExpanseManager - Copy\ExpanseManager\obj\Debug\ExpanseManager.csproj.CopyComplete
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\ExpanseManager.AccountsUC.resources
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\ExpanseManager.FormAddCategory.resources
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\ExpanseManager.FormAddTransaction.resources
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\ExpanseManager.FormEditTransaction.resources
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\ExpanseManager.LoginUC.resources
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\ExpanseManager.OverviewUC.resources
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\ExpanseManager.StartForm.resources
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\hwoexClient.Properties.Resources.resources
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\ExpanseManager.TransactionsUC.resources
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\ExpanseManager.csproj.GenerateResource.cache
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\hwoexClient.exe
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\hwoexClient.pdb
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\bin\Debug\hwoexClient.exe.config
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\bin\Debug\hwoexClient.exe
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\bin\Debug\hwoexClient.pdb
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\bin\Debug\EntityFramework.dll
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\bin\Debug\EntityFramework.SqlServer.dll
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\bin\Debug\EntityFramework.xml
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\bin\Debug\EntityFramework.SqlServer.xml
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\ExpanseManager.csproj.CopyComplete
+C:\IT academy\ExpanseManagerIDOriented\ExpanseManager\obj\Debug\ExpanseManager.csprojAssemblyReference.cache

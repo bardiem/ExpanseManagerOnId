@@ -1,4 +1,4 @@
-﻿namespace hwoexClient
+﻿namespace ExpanseManager
 {
     partial class StartForm
     {
@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.lblBalance = new System.Windows.Forms.Label();
+            this.cmCurrentAcc = new System.Windows.Forms.ComboBox();
             this.sidePanel = new System.Windows.Forms.Panel();
             this.btnNavTransactions = new System.Windows.Forms.Button();
             this.btnNavAccounts = new System.Windows.Forms.Button();
@@ -40,10 +40,10 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnChangeAcc = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.transactionsUC1 = new hwoexClient.TransactionsUC();
-            this.overviewUC1 = new hwoexClient.OverviewUC();
-            this.accountsUC1 = new hwoexClient.AccountsUC();
-            this.loginUC1 = new hwoexClient.LoginUC();
+            this.transactionsUC1 = new ExpanseManager.TransactionsUC();
+            this.overviewUC1 = new ExpanseManager.OverviewUC();
+            this.accountsUC1 = new ExpanseManager.AccountsUC();
+            this.loginUC1 = new ExpanseManager.LoginUC();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -52,8 +52,8 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.lblBalance);
+            this.panel1.Controls.Add(this.cmCurrentAcc);
             this.panel1.Controls.Add(this.sidePanel);
             this.panel1.Controls.Add(this.btnNavTransactions);
             this.panel1.Controls.Add(this.btnNavAccounts);
@@ -70,30 +70,34 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(8, 526);
+            this.label1.Location = new System.Drawing.Point(0, 526);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 18);
             this.label1.TabIndex = 9;
             this.label1.Text = "Balance:";
             // 
-            // label2
+            // lblBalance
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(104, 526);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 18);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "$ 1023,50";
+            this.lblBalance.AutoSize = true;
+            this.lblBalance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblBalance.ForeColor = System.Drawing.Color.White;
+            this.lblBalance.Location = new System.Drawing.Point(84, 526);
+            this.lblBalance.Margin = new System.Windows.Forms.Padding(0);
+            this.lblBalance.Name = "lblBalance";
+            this.lblBalance.Size = new System.Drawing.Size(81, 18);
+            this.lblBalance.TabIndex = 8;
+            this.lblBalance.Text = "$ 1023,50";
             // 
-            // comboBox1
+            // cmCurrentAcc
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(12, 574);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(128, 24);
-            this.comboBox1.TabIndex = 7;
+            this.cmCurrentAcc.FormattingEnabled = true;
+            this.cmCurrentAcc.Location = new System.Drawing.Point(12, 574);
+            this.cmCurrentAcc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cmCurrentAcc.Name = "cmCurrentAcc";
+            this.cmCurrentAcc.Size = new System.Drawing.Size(128, 24);
+            this.cmCurrentAcc.TabIndex = 7;
+            this.cmCurrentAcc.SelectedIndexChanged += new System.EventHandler(this.cmCurrentAcc_SelectedIndexChanged);
             // 
             // sidePanel
             // 
@@ -169,7 +173,7 @@
             this.btnChangeAcc.Location = new System.Drawing.Point(921, 0);
             this.btnChangeAcc.Margin = new System.Windows.Forms.Padding(4);
             this.btnChangeAcc.Name = "btnChangeAcc";
-            this.btnChangeAcc.Size = new System.Drawing.Size(42, 29);
+            this.btnChangeAcc.Size = new System.Drawing.Size(43, 30);
             this.btnChangeAcc.TabIndex = 1;
             this.btnChangeAcc.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnChangeAcc.UseVisualStyleBackColor = true;
@@ -183,7 +187,7 @@
             this.btnExit.Location = new System.Drawing.Point(971, 0);
             this.btnExit.Margin = new System.Windows.Forms.Padding(4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(41, 29);
+            this.btnExit.Size = new System.Drawing.Size(41, 30);
             this.btnExit.TabIndex = 0;
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -191,13 +195,16 @@
             // transactionsUC1
             // 
             this.transactionsUC1.Location = new System.Drawing.Point(201, 33);
+            this.transactionsUC1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.transactionsUC1.Name = "transactionsUC1";
             this.transactionsUC1.Size = new System.Drawing.Size(1016, 587);
             this.transactionsUC1.TabIndex = 6;
+            this.transactionsUC1.btnAddTransactionClick += new System.EventHandler(this.transactionsUC1_btnAddTransactionClick);
             // 
             // overviewUC1
             // 
             this.overviewUC1.Location = new System.Drawing.Point(201, 33);
+            this.overviewUC1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.overviewUC1.Name = "overviewUC1";
             this.overviewUC1.Size = new System.Drawing.Size(1016, 587);
             this.overviewUC1.TabIndex = 5;
@@ -205,6 +212,7 @@
             // accountsUC1
             // 
             this.accountsUC1.Location = new System.Drawing.Point(201, 33);
+            this.accountsUC1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.accountsUC1.Name = "accountsUC1";
             this.accountsUC1.Size = new System.Drawing.Size(1016, 587);
             this.accountsUC1.TabIndex = 4;
@@ -212,8 +220,9 @@
             // loginUC1
             // 
             this.loginUC1.Location = new System.Drawing.Point(0, 33);
+            this.loginUC1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loginUC1.Name = "loginUC1";
-            this.loginUC1.Size = new System.Drawing.Size(1217, 587);
+            this.loginUC1.Size = new System.Drawing.Size(1216, 587);
             this.loginUC1.TabIndex = 3;
             this.loginUC1.btnLoginClick += new System.EventHandler(this.loginUC1_btnLoginClick);
             this.loginUC1.btnRegisterClick += new System.EventHandler(this.loginUC1_btnRegisterClick);
@@ -256,9 +265,10 @@
         private AccountsUC accountsUC1;
         private OverviewUC overviewUC1;
         private TransactionsUC transactionsUC1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmCurrentAcc;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblBalance;
+        private FormAddTransaction fat;
     }
 }
 

@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace hwoexClient
+namespace ExpanseManager
 {
     partial class FormAddCategory
     {

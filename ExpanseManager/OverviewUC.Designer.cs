@@ -1,4 +1,4 @@
-﻿namespace hwoexClient
+﻿namespace ExpanseManager
 {
     partial class OverviewUC
     {

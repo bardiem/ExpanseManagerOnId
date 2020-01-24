@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace hwoexClient
+namespace ExpanseManager
 {
     public partial class TransactionsUC : UserControl
     {
@@ -38,8 +38,7 @@ namespace hwoexClient
                 this.btnAddTransactionClick(this, e);
             }
 
-            FormAddTransaction form = new FormAddTransaction();
-            form.Show();
+            
 
         }
 

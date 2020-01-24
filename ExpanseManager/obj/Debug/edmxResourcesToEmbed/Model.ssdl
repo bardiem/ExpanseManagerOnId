@@ -116,6 +116,17 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="GetAnotherBalance" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="real">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetBalance" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="acc_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SetBalance" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="acc_id" Type="int" Mode="In" />
+    <Parameter Name="newBalance" Type="real" Mode="In" />
+  </Function>
+  <Function Name="SomeShit" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <EntityContainer Name="ExpanseManagerModelStoreContainer">
     <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />

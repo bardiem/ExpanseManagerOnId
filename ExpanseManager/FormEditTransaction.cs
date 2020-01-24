@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace hwoexClient
+namespace ExpanseManager
 {
     public partial class FormEditTransaction : Form
     {
@@ -21,7 +21,7 @@ namespace hwoexClient
         {
             if (this.btnDetailsEditClick != null)
             {
-                this.btnDetailsEditClick(this, e);
+                this.btnDetailsEditClick(this, EventArgs.Empty);
             }
         }
 
